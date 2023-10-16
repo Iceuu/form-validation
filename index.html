@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <form id="form" action="" method="get" name="myForm" onsubmit="return Validate()">
+            <br>
+            <!--title-->
+            <div>
+                <h1>Login form</h1>
+                <h3>Enter your credentials to login</h3>
+            </div>
+
+            <br>
+            <!--email-->
+            <label>email:</label>
+            <input type="email" name="Email" id="email" placeholder="enter your email">
+            <br>
+            <!--password-->
+            <label>password:</label>
+            <input type="password" name="password" id="password" placeholder="enter your password">
+
+            <!--button-->
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+<!-- <label for="cpassword">Confirm new password</label>
+ <input id="cpassword" type="password" name="cpassword" autocomplete="new-password" required> --> -->
