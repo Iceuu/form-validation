@@ -86,7 +86,7 @@ function Validate() {
     console.log(password);
 
     if (email == "iswarya@gmail.com" && password == "231277@ri") {
-        window.location.assign("http://127.0.0.1:5501/linkedin.html")
+        window.location.assign("https://iceuu.github.io/personal-portfolio/")
         alert("login successfully");
     }
     else {
